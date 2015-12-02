@@ -1,0 +1,216 @@
+@-moz-viewport: {width: device-width;scale: 1;}
+@-ms-viewport: {width: device-width;scale: 1;}
+@-viewport: {width: device-width;scale: 1;}
+@-o-viewport: {width: device-width;scale: 1;}
+@-webkit-viewport: {width: device-width;scale: 1;}
+@viewport: {width: device-width;scale: 1;}
+
+html {
+  box-sizing: border-box;
+  moz-text-size-adjust:100%;
+	ms-text-size-adjust:100%;
+	webkit-text-size-adjust:100%;
+	text-size-adjust:100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header{
+	background-color: #04102A;
+	color: white;
+}
+
+nav{
+	text-align: center;
+}
+
+.billboard-content{
+    text-shadow: 2px 3px 2px #000000;
+}
+
+.banner-img{
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
+
+.billboard {
+	background-color: grey;
+	background-image: url(../images/home.jpg);
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+	overflow: hidden;
+	height: 20em;
+	text-align: center;
+	color: white;
+	background-repeat: no-repeat;
+}
+
+.billboard-tour{
+	background-color: grey;
+	background-image: url(../images/tour.jpg);
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+	overflow: hidden;
+	height: 20em;
+	text-align: center;
+	color: white;
+	background-repeat: no-repeat;
+}
+
+.billboard-pricing {
+	background-color: grey;
+	background-image: url(../images/pricing.jpg);
+	background-position: center center;
+	width: 100%;
+	background-size:220%;
+	overflow: hidden;
+	height: 20em;
+	text-align: center;
+	color: white;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.billboard-signup {
+	background-color: grey;
+	background-image: url(../images/signup.jpg);
+	background-position: center center;
+	width: 100%;
+	background-size: 200%;
+	overflow: hidden;
+	height: 20em;
+	text-align: center;
+	color: white;
+	background-repeat: no-repeat;
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.pre-footer{
+	background-color: #04102A;
+	color: white;
+	text-align: center;
+	padding: 5%;
+}
+
+.padding-left{
+	padding-left: 20px;
+}
+
+.copyright{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.footer{
+	text-align: center;
+}
+
+.footer a{
+	color: black;
+}
+
+.icon{
+	max-width: 75px;
+}
+
+.light-grey{
+	background-color: #F2F2F2;
+}
+
+.grey{
+	background-color: #E6E6E6;
+}
+
+@media only screen and (min-width: 15em ) {
+/* 240px =x-small */
+
+	.nav{
+		text-align: center;
+	}
+
+	.header-logo{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.billboard{
+	background-size: 250%;
+}
+
+.billboard-tour{
+	background-size: 215%;
+}
+
+.billboard-signup{
+	background-size: 212%;
+}
+
+.footer-icons{
+	height: 40px;
+}
+
+}
+
+
+@media only screen and (min-width: 25em ) {
+/* 400px =small */
+
+	.billboard{
+		background-size: 125%;
+	}
+
+	.billboard-pricing{
+	background-size: 125%;
+}
+
+.billboard-tour{
+	background-size: 130%;
+}
+
+.bucket img{
+	max-height: 142.109px;
+	max-width: 120px;
+}
+
+}
+
+@media only screen and (min-width: 38em) {
+	/* 608px */
+
+.billboard{
+	background-size: 100%;
+}
+
+	.billboard-pricing{
+	background-size: 100%;
+}
+
+.billboard-tour{
+	background-size: 100%;
+}
+}
+
+@media only screen and (min-width: 60em){
+
+	.billboard{
+		background-size: 100%;
+	}
+
+}
+
+
