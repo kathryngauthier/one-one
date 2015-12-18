@@ -161,6 +161,10 @@ fieldset{
 	background-color: #E6E6E6;
 }
 
+.social-icon{
+	max-width: 54px;
+}
+
 @media only screen and (min-width: 15em ) {
 /* 240px =x-small */
 
