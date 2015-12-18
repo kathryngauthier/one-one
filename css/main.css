@@ -122,17 +122,13 @@ input{
 
 label{
 	display: block;
+	cursor: pointer;
 }
 
-
-input label{
+input + label {
 	display: inline;
 }
 
-label{
-	display: block;
-	cursor: pointer;
-}
 
 fieldset{
 	width: 100%;
@@ -150,7 +146,7 @@ fieldset{
 }
 
 .icon{
-	max-width: 75px;
+	max-width: 5em;
 }
 
 .light-grey{
@@ -172,10 +168,6 @@ fieldset{
 		text-align: center;
 	}
 
-	.header-logo{
-	margin-right: auto;
-	margin-left: auto;
-}
 
 
 .billboard{
