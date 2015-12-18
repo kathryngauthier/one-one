@@ -25,7 +25,7 @@
 <header role="banner">
 
 <div class="grid">
-		<div class="unit center pad-t logo-header">
+		<div class="unit s-1 m-1-4 l-1-4 center pad-t icon">
 			<a href="index.html" ><img src="logo-icons/logo-white.svg" alt"logo"></a>
 		</div>
 
@@ -57,84 +57,80 @@
 
 
 
-<form action="http://formspree.io/gaut0357@algonquinlive.com" method="post">
+ <form class="grid pad-t-1-2 pad-b"action="thanks.html" method="post">
+    <div class="side-form unit unit-s-1 unit-m-1 unit-l-1">
 
-	<div class="grid pad-t push">
-		<div class="unit xs-1 s-1 m-1 l-1 pad-t gutter">
-	</div>
+      <div>
+        <label class=""for="email">E-mail</label>
+        <input class="wid text-feild" type="email" id="email">
+      </div>
 
-	<div class="unit xs-1 s-1 m-1 l-1 gutter">
+      <div class="unit unit-s-1 unit-m-1 unit-l-1">
+        <label class="form-title" for="password">Password</label>
+        <input class="wid text-feild" type="password" id="password">
+      </div>
 
-		<div>
-			<label for="">Email</label>
-				<input for="email" id="email" name="email" type="email">
-		</div>
+      <div class="pad-top unit unit-s-1 unit-m-1 unit-l-1">
+        <h2 class="push-none form-bill">Billing Information</h2>
+      </div>
 
-		<div>
-			<label for="">Password</label>
-				<input for="password" id="password" name="password">
-		</div>
+      <div class="unit unit-s-1 unit-m-1 unit-l-1">
+        <label class="form-title" for="fname">First Name</label>
+        <input class="wid text-feild" id="fname">
+      </div>
 
-		<h2>Billing Info</h2>
+      <div class="unit unit-s-1 unit-m-1 unit-l-1">
+        <label class="form-title" for="lname">Last Name</label>
+        <input class="wid text-feild" id="lname">
+      </div>
 
-		<div>
-			<label for="first name">First Name</label>
-			<input for="fisrt name" id="first name" name="first name">
-		</div>
+      <div class="unit unit-s-1 unit-m-1 unit-l-1 pad-t">
+        <span class="terms">
+          <input type="radio" id="card-type" name="card-type">
+          <label class="form-title" for="visa">Visa</label>
+        </span>
+        <span class="terms">
+          <input type="radio" id="card-type" name="card-type">
+          <label class="form-title" for="mastercard">Mastercard</label>
+        </span>
+        <span class="terms">
+          <input type="radio" id="card-type" name="card-type">
+          <label class="form-title" for="amex">Amex</label>
+        </span>
+      </div>
 
-		<div>
-			<label for="last name">Last Name</label>
-			<input for="last name" id="last name" name="last name">
-		</div>
+      <div class="unit unit-s-1 unit-m-1 unit-l-1 pad-t">
+        <label class="form-title" for="c/c">Credit Card</label>
+        <input class="wid text-feild" id="c/c">
+      </div>
 
-	<fieldset>
+      <div class="grid pad-t">
+        <div class="half-form-ex unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
+          <label class="form-title" for="expire-date">Expiry Date</label>
+          <input class="wid text-feild" id="expire-date" type="date">
+        </div>
 
-		<input id="visa" type="radio" name="card">
-		<label for="visa">Visa</label>
+        <div class="half-form-cvv unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
+          <label class="form-title" for="cvv">CVV</label>
+          <input class="wid text-feild" id="cvv">
+        </div>
 
-		<input id="master card" type="radio" name="card">
-		<label for="master card">Master Card</label>
+        <div>
+          <span class="terms unit unit-s-1 unit-m-1 unit-l-1">
+            <input type="radio" id="agree" name="terms-of-service">
+            <label class="form-title milli" for="agree">I agree to the Terms and Conditions</label>
+          </span>
+        </div>
 
-		<input id="amex" type="radio" name="card">
-		<label for="amex">Amex</label>
+        <div class="button-form-holder">
+        <div class="button-form middle unit unit-s-1 unit-m-1 unit-l-1">
+          <a type="submit" class="button-text" href="thanks.html">START NOW</a>
+        </div>
+        </div>
 
-	</fieldset>
-
-	<div>
-		<label for="credit card">Credit card</label>
-		<input for="credit card" id="credit card">
-	</div>
-
-
-	<div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
-		<div>
-			<label>Expiry Date</label>
-			<input for="expiry date" id="expiry date">
-		</div>
-	</div>
-
-	<div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
-		<div>
-			<label>CVV</label>
-			<input for="CVV" id="CVV">
-		</div>
-	</div>
-
-	<fieldset class="unit micro">
-	<input id="terms and conditions" type="radio" name"terms and conditions">
-	<label for="terms and conditions">I agree to the Terms & Conditions</label>
-	</fieldset>
-
-
-	<div>
-		<a type="submit" class="btn-2">SIGN UP</a>
-	</div>
-
-
-	</div>
-	</div>
-	</div>
-</form>
+      </div>
+    </div>
+  </form>
 
 	<input type="hidden" name="next" value="http://kathryngauthier.github.io/saas-website/thank-you.html">
 
