@@ -223,6 +223,10 @@ fieldset{
 @media only screen and (min-width: 25em ) {
 /* 400px =small */
 
+	.nav{
+		text-align: right;
+	}
+
 	.billboard{
 		background-size: 125%;
 	}
