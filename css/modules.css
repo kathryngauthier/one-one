@@ -189,36 +189,6 @@ svg {
   vertical-align: middle;
 }
 
-.i--16 {
-  height: 16px;
-  width: 16px;
-}
-
-.i--18 {
-  height: 18px;
-  width: 18px;
-}
-
-.i--24 {
-  height: 24px;
-  width: 24px;
-}
-
-.i--32 {
-  height: 32px;
-  width: 32px;
-}
-
-.i--48 {
-  height: 48px;
-  width: 48px;
-}
-
-.i--64 {
-  height: 64px;
-  width: 64px;
-}
-
 .icon svg {
   left: 0;
   height: 100%;
@@ -239,44 +209,8 @@ svg {
   display: none;
   visibility: hidden;
 }
-
-.visually-hidden {
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-
-.visually-hidden.focusable:active, .visually-hidden.focusable:focus {
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-  clip: auto;
-}
-
 .invisible {
   visibility: hidden;
-}
-
-.truncate {
-  max-width: 100%;
-  overflow: hidden;
-  width: 100%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.scrollable {
-  max-width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 
 .center {
@@ -339,38 +273,6 @@ svg {
 
 .static {
   position: static;
-}
-
-.zindex-1 {
-  z-index: 1;
-}
-
-.zindex-2 {
-  z-index: 2;
-}
-
-.zindex-3 {
-  z-index: 3;
-}
-
-.pin-top-left, .pin-tl {
-  top: 0;
-  left: 0;
-}
-
-.pin-top-right, .pin-tr {
-  top: 0;
-  right: 0;
-}
-
-.pin-bottom-left, .pin-bl {
-  bottom: 0;
-  left: 0;
-}
-
-.pin-bottom-right, .pin-br {
-  bottom: 0;
-  right: 0;
 }
 
 .width-quarter, .w-1-4 {
